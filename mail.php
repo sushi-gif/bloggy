@@ -12,8 +12,8 @@ $mailMsg = "Da ".$mailer." :<br> ".$body;
  $mail ->Host = "smtp.gmail.com";
  $mail ->Port = 465; // or 587
  $mail ->IsHTML(true);
- $mail ->Username = "turturro.vincenzot@gmail.com";
- $mail ->Password = "Cheballe2002!";
+ $mail ->Username = "_email_";
+ $mail ->Password = "_password_";
  $mail ->SetFrom($mailer);
  $mail ->Subject = $mailSub;
  $mail ->Body = $mailMsg;
